@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #00378C;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top:0px;
+  right:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  /* justify-content: flex-end; */
+  user-select: none;
+  box-shadow: 0 2px 5px rgba(0 0 0 / 50%);
+}
+
+.nav-button {
+  background: rgba(255 255 255 / 25%);
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  padding: 0 0.5em;
+  margin: 0 0.25em;
+}
+
+.nav-button:hover{
+  background-color: white;
+  color: black;
+}
+
+/* rgba(0, 0, 0, 0.05) 0px 1px 2px 0px, rgba(0, 0, 0, 0.05) 0px 1px 4px 0px, rgba(0, 0, 0, 0.05) 0px 2px 8px 0px */
