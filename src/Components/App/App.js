@@ -1,9 +1,13 @@
 import './App.css';
 import Navbar from '../Navbar/Navbar';
+import LabelSelector from '../LabelSelector/LabelSelector';
 
 function App() {
   return (
-    <Navbar />
+    <>
+      <Navbar />
+      <LabelSelector />
+    </>
   );
 }
 
